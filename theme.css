@@ -64,8 +64,9 @@ legend { font-size: .9rem; font-weight: 600; margin-bottom: var(--space-3); }
 .choices button { padding: var(--space-2) var(--space-5); min-height: var(--tap); background: transparent; color: var(--text-primary); border: .0625rem solid var(--control-border); border-radius: var(--radius-pill); transition: background var(--duration-feedback), color var(--duration-feedback); }
 .choices button:hover { border-color: var(--text-primary); }
 .choices button[aria-pressed="true"] { color: var(--button-text); background: var(--button-bg); border-color: var(--button-bg); }
-.preview-area { padding: var(--space-5); background: var(--primitive-light); border-radius: var(--radius-panel); }
-.calendar-preview { background: var(--preview-forest-bg); color: var(--preview-forest-fg); padding: var(--space-6); border-radius: calc(var(--radius-panel) - var(--space-2)); min-height: 30rem; display: flex; flex-direction: column; justify-content: center; transition: background var(--duration-feedback), color var(--duration-feedback); }
+.studio > * { min-width: 0; }
+.preview-area { padding: var(--space-4); background: var(--primitive-light); border-radius: var(--radius-panel); }
+.calendar-preview { background: var(--preview-forest-bg); color: var(--preview-forest-fg); padding: var(--space-5); border-radius: calc(var(--radius-panel) - var(--space-2)); min-height: 30rem; display: flex; flex-direction: column; justify-content: center; transition: background var(--duration-feedback), color var(--duration-feedback); }
 .calendar-preview[data-look="sand"] { background: var(--preview-sand-bg); color: var(--preview-sand-fg); }
 .calendar-preview[data-look="night"] { background: var(--preview-night-bg); color: var(--preview-night-fg); }
 .preview-kicker { font-size: var(--type-small); }
